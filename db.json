@@ -1,0 +1,244 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "userone@email.com",
+      "role": "patient",
+      "password": "admin",
+      "patientId": 1
+    },
+    {
+      "id": 2,
+      "email": "usertwo@email.com",
+      "role": "patient",
+      "password": "admin",
+      "patientId": 2
+    },
+    {
+      "id": 3,
+      "email": "userthree@email.com",
+      "role": "patient",
+      "password": "admin",
+      "patientId": 3
+    },
+    {
+      "id": 4,
+      "email": "userfour@email.com",
+      "role": "patient",
+      "password": "admin",
+      "patientId": 4
+    },
+    {
+      "id": 5,
+      "email": "userfive@email.com",
+      "role": "doctor",
+      "password": "admin",
+      "doctorId": 5
+    },
+    {
+      "id": 6,
+      "email": "usersix@email.com",
+      "role": "doctor",
+      "password": "admin",
+      "doctorId": 6
+    },
+    {
+      "id": 7,
+      "email": "userseven@email.com",
+      "role": "doctor",
+      "password": "admin",
+      "doctorId": 7
+    },
+    {
+      "id": 8,
+      "email": "usereigth@email.com",
+      "role": "doctor",
+      "password": "admin",
+      "doctorId": 8
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "birthDay": "2000-02-16T00:00:00",
+      "cpf": "11111111111",
+      "isActive": true,
+      "email": "userone@email.com",
+      "role": "patient",
+      "name": "Cassio Ramos",
+      "gender": "male",
+      "modifiedAt": "2023-10-18T09:00:00",
+      "age": 35,
+      "expertise": ""
+    },
+    {
+      "id": 2,
+      "birthDay": "2002-11-08T00:00:00",
+      "cpf": "22222222222",
+      "isActive": true,
+      "email": "usertwo@email.com",
+      "role": "patient",
+      "name": "Renato Augusto",
+      "gender": "male",
+      "modifiedAt": "2023-10-18T09:00:00",
+      "age": 35,
+      "expertise": ""
+    },
+    {
+      "id": 3,
+      "birthDay": "2002-11-08T00:00:00",
+      "cpf": "33333333333",
+      "isActive": true,
+      "email": "userthree@email.com",
+      "role": "patient",
+      "name": "Renato Augusto",
+      "gender": "male",
+      "modifiedAt": "2023-10-18T09:00:00",
+      "age": 35,
+      "expertise": ""
+    },
+    {
+      "id": 4,
+      "birthDay": "2002-11-08T00:00:00",
+      "cpf": "44444444444",
+      "isActive": true,
+      "email": "userfour@email.com",
+      "role": "patient",
+      "name": "Matias Rojas",
+      "gender": "male",
+      "modifiedAt": "2023-10-18T09:00:00",
+      "age": 35,
+      "expertise": ""
+    }
+  ],
+  "doctors": [
+    {
+      "id": 5,
+      "birthDay": "1998-04-05T00:00:00",
+      "crm": "55555/AA",
+      "isActive": true,
+      "email": "userfive@email.com",
+      "role": "doctor",
+      "name": "Janara Sackl",
+      "gender": "female",
+      "modifiedAt": "2023-10-18T09:00:00",
+      "age": 35,
+      "expertise": "Oftalmologista"
+    },
+    {
+      "id": 6,
+      "birthDay": "1998-04-05T00:00:00",
+      "crm": "66666/AA",
+      "isActive": true,
+      "email": "usersix@email.com",
+      "role": "doctor",
+      "name": "Fernanda Klarner",
+      "gender": "female",
+      "modifiedAt": "2023-10-18T09:00:00",
+      "age": 35,
+      "expertise": "Ginecologista"
+    },
+    {
+      "id": 7,
+      "birthDay": "1998-04-05T00:00:00",
+      "crm": "77777/AA",
+      "isActive": true,
+      "email": "userseven@email.com",
+      "role": "doctor",
+      "name": "Angel Romero",
+      "gender": "male",
+      "modifiedAt": "2023-10-18T09:00:00",
+      "age": 35,
+      "expertise": "Psicologo"
+    },
+    {
+      "id": 8,
+      "birthDay": "1998-04-05T00:00:00",
+      "crm": "88888/AA",
+      "isActive": true,
+      "email": "usereigth@email.com",
+      "role": "doctor",
+      "name": "Roger Guedes",
+      "gender": "male",
+      "modifiedAt": "2023-10-18T09:00:00",
+      "age": 35,
+      "expertise": "Nutricionista"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "date": "2024-01-10T13:00:00",
+      "doctorId": 5,
+      "patientId": 1,
+      "title": "Consulta Oftalmo",
+      "description": "Aumento de grau do óculos"
+    },
+    {
+      "id": 2,
+      "date": "2024-02-15T17:00:00",
+      "doctorId": 5,
+      "patientId": 1,
+      "title": "Consulta Oftalmo",
+      "description": "Aumento de grau do óculos"
+    },
+    {
+      "id": 3,
+      "date": "2024-02-15T17:00:00",
+      "doctorId": 6,
+      "patientId": 1,
+      "title": "Consulta Oftalmo",
+      "description": "Aumento de grau do óculos"
+    },
+    {
+      "date": "2023-12-13T15:45:26.698Z",
+      "doctorId": 7,
+      "patientId": 1,
+      "title": "Consulta com Psicologo",
+      "description": "Problemas com ansiedade",
+      "id": 4
+    },
+    {
+      "date": "2023-12-15T17:00:58.589Z",
+      "doctorId": 7,
+      "patientId": 1,
+      "title": "Consulta com Psicologo",
+      "description": "Consulta de rotina",
+      "id": 5
+    },
+    {
+      "date": "2023-12-12T21:23:27.920Z",
+      "doctorId": 5,
+      "patientId": 1,
+      "title": "Consulta com Oftalmologista",
+      "description": "",
+      "id": 6
+    },
+    {
+      "date": "2023-12-15T14:30:00.355Z",
+      "doctorId": 7,
+      "patientId": 1,
+      "title": "Consulta com Psicologo",
+      "description": "Consulta de rotina",
+      "id": 7
+    }
+  ],
+  "exams": [
+    {
+      "id": 1,
+      "title": "Exame de Sangue",
+      "description": "Retorno",
+      "date": "2024-03-08T08:00:00",
+      "doctorId": 5,
+      "patientId": 1
+    },
+    {
+      "id": 2,
+      "title": "Exame de Sangue",
+      "description": "Retorno",
+      "date": "2024-03-08T08:00:00",
+      "doctorId": 6,
+      "patientId": 1
+    }
+  ]
+}
